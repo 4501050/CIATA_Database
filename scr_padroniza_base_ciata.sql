@@ -1,4 +1,4 @@
--- Última atualização: 22/07/2026
+-- Padronização da base RM - CIATA
 
 PRINT '--> GUSUARIO'
 GO

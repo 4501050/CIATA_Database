@@ -1,4 +1,4 @@
--- Scripts de Apoio
+-- Scripts de Apoio para o time CIATA
 
 
 SELECT TOP 10 *  
