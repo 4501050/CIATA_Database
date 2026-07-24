@@ -75,12 +75,11 @@ from GJOB
 where codsistema = 'S'
 and relatorio = 1
 
-codusuario = '10741479'
+--codusuario = '10741479'
 
-codsistema = 'S'
+--codsistema = 'S'
 
-Instantâneo - RptExecutorProcess
-Gerar Relatório
+--Instantâneo - RptExecutorProcess
 
 
 select *
@@ -92,12 +91,9 @@ select *
 from rreports
 
 
-146532-core-instance-N-RM-D-CBOCMD-1-75fe3WIN-SP03
+--146532-core-instance-N-RM-D-CBOCMD-1-75fe3WIN-SP03
 
-9345749
-
-
-
+--9345749
 
 SELECT *
 FROM GJOBLOG
@@ -149,18 +145,12 @@ select *
 from gJOBXEXECUCAOHSt
 where idjob = '9345757'
 
- in (
-        select idjob
-        from GJOBXEXECUCAO
-        where datainiexec >= '2026-07-23 00:00:00.000')
-
-
 
 select top 10 *
 from gjobxexecucaohst  
 where reccreatedby = '10741479'
 
-textostatus like '%1552'      
+--textostatus like '%1552'      
 
 
 select *
