@@ -155,7 +155,3 @@ where reccreatedby = '10741479'
 
 select *
 from qcubox
-
-
-
-
