@@ -61,6 +61,7 @@ AND DESCRICAO LIKE '%MATRÍCULA%'
         Para Relatórios de Professores o campo ID será 'RELGERADORPROFNET'; 
         para relatórios de Alunos o campo ID será 'RELGERADORALUNONET'. 
         No campo TEXTO ele traz um MEMO de todos os relatórios que já foram disponibilizados.
+        Link: https://centraldeatendimento.totvs.com/hc/pt-br/articles/15024936775959-TOTVS-Educacional-Educacional-EDU-Tabela-que-armazena-os-Relat%C3%B3rios-informados-nos-Par%C3%A2metros-Educacionais-de-Portal
 */
 SELECT MEMO
 FROM SPARAM
@@ -144,3 +145,6 @@ FROM SPARAMRELAT
 
 
 
+select top 10 *
+from     RRPTREPORT
+where id = 814
