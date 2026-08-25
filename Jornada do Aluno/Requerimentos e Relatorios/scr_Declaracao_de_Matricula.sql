@@ -55,6 +55,9 @@ WHERE CODCOLIGADA = 1
 AND DESCRICAO LIKE '%DECLARA%'
 AND DESCRICAO LIKE '%MATRÍCULA%'
 
+GUID - Identificador único do relatório
+
+
 /* PARÂMETROS DE RELATÓRIOS DISPONIBILIZADOS NO EDUCACIONAL/PORTAL
         A tabela que armazena a informação é a SPARAM. 
         No campo MEMO ele retorna todos os códigos dos relatórios disponibilizados. 
@@ -91,6 +94,7 @@ ORDER BY        R.CODAPLICACAO,
                 P.CODTIPOCURSO
 
 
+6881e856-bc63-4490-95f2-26e848675816
 
 
 SELECT  CODCOLIGADA,
@@ -148,3 +152,20 @@ FROM SPARAMRELAT
 select top 10 *
 from     RRPTREPORT
 where id = 814
+
+
+
+select *
+from spletivo
+
+
+
+select *
+from shabilitacao
+where codcoligada = 1
+and codcurso = 'HG0901339'
+
+select *
+from smatricpl
+where codcoligada = 1
+and ra = '10741479'
