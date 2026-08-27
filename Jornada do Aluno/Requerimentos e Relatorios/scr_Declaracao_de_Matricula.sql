@@ -169,3 +169,36 @@ select *
 from smatricpl
 where codcoligada = 1
 and ra = '10741479'
+
+
+=============================================================
+
+select *
+from shabilitacaoaluno
+where codcoligada = 1
+and ra = '10741479'
+
+
+SELECT *
+FROM SMATRICPL
+WHERE CODCOLIGADA = 1   
+AND RA = '10741479'
+
+
+SELECT CODTIPOCURSO, *
+FROM SPLETIVO
+
+SELECT *
+FROM SCURSO
+WHERE CODCOLIGADA = 1
+AND CODCURSO = 'HG0901339'
+
+/*
+CODCOLIGADA  - 1
+CODFILIAL - 1
+RA - 10741479
+IDHABILITACAOFILIAL - 44408
+CODTIPOCURSO - 3
+IDPERLET - 2868 (2026/1)
+*/
+
